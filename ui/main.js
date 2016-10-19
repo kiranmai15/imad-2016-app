@@ -21,8 +21,8 @@ button.onclick = function(){
 };
 
 //submit name
-var nameInput = document.getElementById('name');
-var name = nameInput.value;
+
+
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
    
@@ -45,7 +45,8 @@ submit.onclick = function(){
           }
      };
        //Make a request to server and send the name
-    
+    var nameInput = document.getElementById('name');
+    var name = nameInput.value;
     request.open('GET',"http://kiranmai15.imad.hasura-app.io/submit-name?name=",name,true);
     request.send(null);
           
