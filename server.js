@@ -36,7 +36,7 @@ app.get('/submit-name/:name',function(req,res){
     names.push(name);
     //JSON Javascript object notation converts objects to strings
     
-    res.send(JSON.stringigy(names));
+    res.send(JSON.stringify(names));
 });
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
