@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-var Pool= new Pool('config');
+var pool= new Pool('config');
 app.get('/test-db', function(req, res){
    //make a select request
    //return the response with results
