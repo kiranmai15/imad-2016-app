@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif;
-    background-color: #A3B4CS;
     margin: auto;
     width: 100%;
     background-image: url("http://www.thisiscolossal.com/wp-content/uploads/2016/01/beck-10.jpg");
@@ -21,6 +20,6 @@ body {
 }
 
 .img-medium {
-    height: 200px;
+    height: 100px;
 }
 
