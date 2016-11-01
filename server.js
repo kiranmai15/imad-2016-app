@@ -57,6 +57,9 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/main.js',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
+app.get('/ui/game.css', function(req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'game.css'));
+});
 var names=[];
 app.get('/submit-name',function(req,res){//URL /submit-name/?name=XXXXX
     // get the name
