@@ -39,6 +39,9 @@ app.get('/counter',function(req, res){
     res.send(counter.toString());
 });
 
+app.get('/game', function (req, res){
+    res.sendFile(path.join(__dirname, 'ui', 'game.html'));
+});
 app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
@@ -48,9 +51,7 @@ app.get('/article-two', function (req, res) {
 app.get('/article-three', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
 });
-app.get('/game', function (req, res){
-    res.sendFile(path.join(__dirname, 'ui', 'game.html'));
-});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
