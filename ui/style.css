@@ -3,7 +3,7 @@ body {
     margin: auto;
     width: 100%;
     background-image: url("http://www.thisiscolossal.com/wp-content/uploads/2016/01/beck-10.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     position: relative;
 }
 
