@@ -1,11 +1,11 @@
 a:link{
-    color: red;
+    color: brown;
 }
 a:hover{
     color: pink;
 }
 a:visited{
-    color: green;
+    color: red;
 }
 a{
     text-decoration:none;
