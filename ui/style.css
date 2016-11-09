@@ -25,6 +25,7 @@ body {
 
 .img-medium {
     height: 150px;
+    position:static;
     
 }
 
