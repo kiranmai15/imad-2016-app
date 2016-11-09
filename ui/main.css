@@ -1,9 +1,9 @@
 a:link{
-    color: #008B45;
+    color: red;
 }
 a:hover{
-    color: #00FF00;
+    color: pink;
 }
 a:visited{
-    color: #EE9A00;
+    color: green;
 }
