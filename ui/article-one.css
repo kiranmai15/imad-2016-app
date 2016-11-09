@@ -1,3 +1,6 @@
+h1{
+    font-family: sans-serif;
+}
 h3{
     color:brown;
 }
@@ -11,4 +14,7 @@ body
     background-position: center center;
     background-size: cover;
     
+}
+p{
+    font-family: cursive;
 }
