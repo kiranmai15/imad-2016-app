@@ -13,9 +13,9 @@ a{
 }
 div {
 	display: inline-block;
-	margin-left: 5px;
-	height: 100px;
-		width: 100px;
+	margin-left: 100px;
+	height: 300px;
+		width: 300px;
 		border-radius: 100%;
 		border: 2px solid black;
 	
