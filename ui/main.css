@@ -1,12 +1,14 @@
 a:link{
-    color: brown;
+    text-decoration:none;
+    color: #008B45;
 }
 a:hover{
-    color: pink;
+    color: #00FF00;
 }
 a:visited{
-    color: red;
+    color: #EE9A00;
 }
+
 a{
     text-decoration:none;
 }
