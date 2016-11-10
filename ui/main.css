@@ -12,7 +12,7 @@ a{
     text-decoration:none;
 }
 div {
-	display: block;
+	display: inline-block;
 	margin: 50px 150px 50px 250px;
 	padding: 50px 50px 50px 50px;
 	height: 200px;
