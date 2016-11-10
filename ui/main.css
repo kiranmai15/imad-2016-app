@@ -8,10 +8,7 @@ a:hover{
 a:visited{
     color: #EE9A00;
 }
-a{
-    text-decoration:none;
-}
-div {
+.A {
 	display: table-cell;
     height: 200px;
 	width: 200px;
@@ -22,3 +19,8 @@ div {
 	vertical-align:middle;
 	margin:50px 50px 50px 50px;
 	}
+#Head{
+   	height: 50px;
+	background-color: #F38630;
+	margin-bottom: 10px;
+}
