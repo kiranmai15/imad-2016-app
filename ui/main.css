@@ -8,6 +8,11 @@ a:hover{
 a:visited{
     color: black;
 }
+a{
+    font-family:serif;
+    font-size:20px;
+    
+}
 .A {
 	display: inline-block;
     height: 200px;
