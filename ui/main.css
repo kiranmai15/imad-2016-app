@@ -13,12 +13,8 @@ a{
 }
 div {
 	display: inline-block;
-	margin: 50px 50px 50px 250px;
-	padding: 100px 100px 100px 100px;
-	height: 200px;
-		width: 200px;
-		border-radius: 100%;
-		
-		background-color: #F38630;
-	
-}
+    height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	background-color: #F38630;
+	}
