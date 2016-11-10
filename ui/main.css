@@ -14,6 +14,7 @@ a{
 div {
 	display: inline-block;
 	margin-left: 250px;
+	padding: 350px 350px 350px 350px;
 	height: 300px;
 		width: 300px;
 		border-radius: 100%;
