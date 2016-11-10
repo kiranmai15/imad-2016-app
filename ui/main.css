@@ -15,7 +15,8 @@ a:visited{
 	border-radius: 10%;
 	border: 2px solid black;
 	background-color: #F38630;
-	
+	text-align:center;
+	position: absolute;
 	margin:100px 50px 100px 50px;
 	}
 #Head{
