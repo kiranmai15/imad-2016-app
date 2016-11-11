@@ -18,12 +18,7 @@ a:hover{
 a:visited{
     color: black;
 }
-a{
-    font-family:serif;
-    font-weight: bold;
-    font-size:40px;
-    
-}
+
 .A {
 	display: inline-block;
     height: 200px;
@@ -34,6 +29,9 @@ a{
 	text-align:center;
 	
 margin:100px 50px 100px 50px;
+font-family:serif;
+    font-weight: bold;
+    font-size:40px;
 	}
 #Head{
    	height: 50px;
