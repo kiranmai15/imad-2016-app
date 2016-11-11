@@ -34,12 +34,11 @@ font-family:serif;
     font-size:40px;
 	}
 #Head{
-   	height: 30px;
-background-color: #F38630;
+   	height: 50px;
 	font-weight: bold;
 	text-align: center;
     color:  #DAF7A6 ;
-    font-size: 48px;
+    font-size: 40px;
   font-family: Palatino, 'Palatino Linotype', serif;
 }
 p{
