@@ -35,11 +35,10 @@ font-family:serif;
 	}
 #Head{
    	height: 40px;
-   	background-color: #F38630;
 	font-weight: bold;
 	text-align: center;
     color:  #DAF7A6 ;
-    font-size: 40px;
+    font-size: 30px;
   font-family: Palatino, 'Palatino Linotype', serif;
 }
 p{
