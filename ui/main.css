@@ -24,7 +24,7 @@ a{
     
 }
 .A {
-	display: inline-block;
+	display: inline;
     height: 200px;
 	width: 200px;
 	border-radius: 10%;
