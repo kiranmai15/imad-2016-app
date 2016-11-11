@@ -35,23 +35,17 @@ font-family:serif;
 	}
 #Head{
    	height: 50px;
-/*	background-color: #F38630;*/
 	margin-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+    color:  #DAF7A6 ;
+    font-size: 48px;
+  font-family: Palatino, 'Palatino Linotype', serif;
 }
 p{
     margin:100px 50px 100px 75px;
     position:absolute;
    
 }
-h1{
-	font-family: serif;
-	font-weight: bold;
-	text-align: center;
-    color:  #DAF7A6 ;
-}
-h2{
-    color:  #DAF7A6 ;
-}
-h4{
-    color:  #DAF7A6 ;
-}
+
+
