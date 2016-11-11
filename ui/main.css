@@ -24,7 +24,7 @@ a{
     
 }
 .A {
-	display: table-cell;
+	display: inline-block;
     height: 200px;
 	width: 200px;
 	border-radius: 10%;
