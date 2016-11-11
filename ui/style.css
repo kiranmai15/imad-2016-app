@@ -11,9 +11,7 @@ body {
     background-attachment: scroll;
 }
 
-.center {
-    text-align: center;
-}
+
 
 .text-big {
     font-size: 300%;
@@ -23,13 +21,7 @@ body {
     font-weight: bold;
 }
 
-.img-medium {
-    height: 150px;
-    position:relative;
-    top:20px;
-    left:-550px;
-    
-}
+
 #header {
 	position: relative;
 	top: -10px;
