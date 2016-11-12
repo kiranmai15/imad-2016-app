@@ -67,6 +67,7 @@ header p {
 .footer{
     display:flex;
     font-size:20px;
+    justify-content: flex-end;
 
 }
 
