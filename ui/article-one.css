@@ -21,4 +21,19 @@ header nav {
   display: flex;
   justify-content: flex-end;
 }
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/22/12/34/pen-1215435_960_720.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 600px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
 
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: -200px;
+  color: #fff;
+}
