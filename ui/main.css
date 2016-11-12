@@ -30,7 +30,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("https://images3.alphacoders.com/176/176787.jpg");
+  background-color: blue;
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -66,7 +66,6 @@ header p {
 
 .footer{
     font-size:20px;
-    text-align: center;
-    margin:0 100px;
+ 
 }
 
