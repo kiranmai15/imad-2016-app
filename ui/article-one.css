@@ -60,7 +60,7 @@ header p {
 .dropdown {
     position: relative;
     display: inline-block;
-    padding-top:-100px;
+    padding-top:150px;
 }
 
 /* Dropdown Content (Hidden by Default) */
