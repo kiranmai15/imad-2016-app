@@ -19,7 +19,6 @@ header h1 {
 
 header nav {
   display: flex;
-  justify-content: flex-end;
 }
 .jumbotron {
   display: flex;
