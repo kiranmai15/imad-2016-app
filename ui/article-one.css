@@ -1,21 +1,24 @@
-h1{
-    font-family: serif;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
 
+header {
+  padding: 20px 0;
 }
-h3{
-    color:brown;
+
+header .row{
+  display: flex;
+  align-items: center;
 }
-body
-{
-    background-image:url("https://cdn.pixabay.com/photo/2016/02/22/12/34/pen-1215435_960_720.jpg");
-     width: 100%;
-    height: 100%;
-     background-repeat: no-repeat;
-    position: relative;
-    background-position: center center;
-    background-size: cover;
-    
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
 }
-p{
-    font-family: cursive;
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
 }
+
