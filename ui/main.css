@@ -70,5 +70,6 @@ header p {
 }
 .footer col-sm-4{
     justify-content:flex-end;
+    padding-left:100px;
 }
 
