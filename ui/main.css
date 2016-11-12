@@ -7,8 +7,7 @@ header {
   padding: 20px 0;
 }
 
-header .row,
-footer .row {
+header .row{
   display: flex;
   align-items: center;
 }
@@ -57,15 +56,6 @@ header p {
   color: #fff;
 }
 
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
-}
-
-.col-md-6 {
-  margin: 0 0 30px;
-}
-
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
@@ -79,27 +69,6 @@ section .row img {
   background-color: #fbd1d5;
 }
 
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
 
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-}
 
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
 
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
-}
