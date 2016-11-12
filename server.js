@@ -43,6 +43,9 @@ app.get('/ui/article-one.css', function (req, res) {
 app.get('/ui/main.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.css'));
 });
+app.get('/ui/article-three.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-three.css'));
+});
 app.get('/ui/main.js',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
