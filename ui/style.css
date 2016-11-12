@@ -10,9 +10,6 @@ body {
     background-size: cover;
     background-attachment: scroll;
 }
-
-
-
 .text-big {
     font-size: 300%;
 }
@@ -20,8 +17,6 @@ body {
 .bold {
     font-weight: bold;
 }
-
-
 #header {
 	position: relative;
 	top: -10px;
