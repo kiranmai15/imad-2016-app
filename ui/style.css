@@ -1,1 +1,113 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/22/12/34/pen-1215435_960_720.jpg");
+  background-size: cover;
+  color: black;
+  height: 700px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.question{
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
+}
+.panel1,.panel2,.panel3,.panel4,.panel5{
+    margin-left:150px;
+    width:1000px;
+    display:none;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.panel2 ul,.panel3 ul,.panel4 p,.panel5 ul{
+    margin-left:200px;
+    font-size:20px;
+    text-align: left;
+}
+.panel1 p{
+    margin-left:300px;
+    font-size:20px;
+}
+
+ .question{
+  
+    position:relative;
+    margin-top:-100px ;
+    margin-left:470px;
+  
+    width:150px;
+    height:30px;
+	font-family:sans-serif;
+    font-size:20px;
+	color:black;
+    background:  #e59866
+ ;
+	text-decoration:none;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    text-align:center;
+}
+ 
+.question p {
+    text-align:center;
+}
+#Name{
+    margin-top:150px ;
+}
+#Education{
+    margin-top:10px ;
+}
+#Skills{
+    margin-top:10px ;
+}
+#Profession{
+    margin-top:10px ;
+}
+#Interests{
+    margin-top:10px ;
+}
+#tab { 
+    display:inline-block; 
+       margin-left: 250px; 
+}
+.panel1,.panel4{
+    height:20px;
+}
+.panel2,.panel3,.panel5{
+    height:100px;
+}
+footer {
+  font-size: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+
+}
 
