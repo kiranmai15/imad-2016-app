@@ -103,11 +103,8 @@ header p {
 .panel2,.panel3,.panel5{
     height:100px;
 }
-footer {
-  font-size: 20px;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
-
+.footer{
+    font-size:30px;
+ 
 }
 
