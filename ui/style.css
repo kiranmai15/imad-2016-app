@@ -7,8 +7,7 @@ header {
   padding: 20px 0;
 }
 
-header .row,
-footer .row {
+header .row{
   display: flex;
   align-items: center;
 }
