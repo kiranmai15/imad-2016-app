@@ -18,6 +18,15 @@ app.get('/index', function (req, res){
 app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
+app.get('/article-two', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
+});
+app.get('/article-three', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
+});
+app.get('/article-one', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+});
 app.get('/ui/main.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.css'));
 });
@@ -26,6 +35,9 @@ app.get('/ui/style.css', function (req, res) {
 });
 app.get('/ui/article-one.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.css'));
+});
+app.get('/ui/article-three.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-three.css'));
 });
 app.get('/ui/jquery-1.4.2.js',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'jquery-1.4.2.js'));
