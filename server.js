@@ -21,9 +21,7 @@ app.get('/counter',function(req, res){
 app.get('/index', function (req, res){
     res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/game', function (req, res){
-    res.sendFile(path.join(__dirname, 'ui', 'game.html'));
-});
+
 app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
@@ -52,9 +50,8 @@ app.get('/ui/jquery-1.4.2.js',function(req,res){
 app.get('/ui/main.js',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
-app.get('/ui/game.css', function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'game.css'));
-});
+
+
 var names=[];
 app.get('/submit-name',function(req,res){//URL /submit-name/?name=XXXXX
     // get the name
