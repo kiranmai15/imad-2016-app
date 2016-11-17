@@ -1,44 +1,64 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-        <title>R Kiranmai</title>
-    </head>
-    <body>
-       <div id="header"> <h1>About Me</h1> </div>
-        <div class="container">
-         
-                
-         <div id="AboutMe">
-             <p>Iam <a href="https://en.wikipedia.org/wiki/Computer_science">Computer Science</a> Post Graduate</p>
-<p>I like to play <a href="https://en.wikipedia.org/wiki/Chess">chess</a> & <a href="https://en.wikipedia.org/wiki/Shuttle">shuttle</a></p>
-<p>I like pets</p>
-          </div>
-          <hr/>
-         <h2>Areas of Interest</h2>
-<ul>
-<li>Web Programming</li>
-<li>Database Security</li>
-<li>Data Science & Big Data</li>
-<li>Network Security & Cryptography</li>
-</ul>
-          <hr/>
-          <h2>My Links</h2>
-          <ul>
-<a href="http://kiranmai15.imad.hasura-app.io/article-one" target="_blank"><li>e-Courses</li></a >
-
-<a href="http://kiranmai15.imad.hasura-app.io/game" target="_blank"><li>Mind Games</li></a>
-</ul>
-          <div class="footer">
-                This profile<button id="counter">View</button> has been viewed by <span id="count">0</span> members
-                <hr/>
-                <input type="text" id="name" placeholder="comment"></input>
-                <input type="submit" value="submit" id="submit_btn"></input>
-                <ul id="namelist">
-        </ul>
-          </div>
+<head>
+  <title>Profile Page</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ 
+   <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <header class="container">
+    <div class="row">
+     <h1 class="col-sm-4">About Me</h1>
+      <nav class="col-sm-8 text-right">
+        <p>Sign up</p>
+        <p>e-Courses</p>
+        <p>Contact</p>
+      </nav>
+      </div>
+    </header>
+  <section class="jumbotron">
+    <div class="container">
+      <div id="Name" class="question">Name</div>
+    <div class="panel1">
+        <p>Iam Kiranmai Rachagiri</p>
         </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+      <div id="Profession" class="question">Profession</div>
+    <div class="panel4">
+        <p>Worked as an Assistant Professor during(2013-2016)</p>
+        </div>
+        <div id="Education" class="question">Education</div>
+    <div class="panel2">
+        <ul>
+        <li>Master of Technology in <a href="https://en.wikipedia.org/wiki/Computer_science"> Computer Science & Engineering</a>,<br> <span id="tab">(2011-2013)</span> </li>
+        <li>Bachelor of Engineering in in <a href="https://en.wikipedia.org/wiki/Computer_science"> Computer Science & Engineering</a>,<br> <span id="tab">(2006-2010)</span></li>
+        </ul>
+        </div>
+         <div id="Skills" class="question">Technical Skills</div>
+    <div class="panel3">
+       <ul>
+           <li>Programming Languages : C,C++,Java, Java Script, HTML/CSS,<br> <span id="tab"> JQuery, PL/SQL, Python</span> </li>
+           <li>Databases Worked with : Oracle, PostgreSQL, MS Access</li>
+        </ul>
+        </div>
+            <div id="Interests" class="question">Research Areas</div>
+    <div class="panel5">
+       <ul>
+           <li>Web Application Development & Security</li>
+           <li>Data Science & Big Data</li>
+           <li>Network Security & Cryptography</li>
+        </ul>
+        </div>
+      </div>
+    </section>
+      <footer class="container">
+    <div class="row">
+     <p>&copy; e-Learning 2016</p>
+    </div>
+          </footer>
+</body>
 </html>
+
