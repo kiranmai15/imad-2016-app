@@ -10,10 +10,9 @@
       <body>
      <header class="container">
        <div class="row">
-     <h1 class="col-sm-6">Welcome to e-Courses</h1>
+     <h1 class="col-sm-6">Welcome to Java Course</h1>
       <nav class="col-sm-6 text-right">
          <p> <a href="/">Home</a><p>
-        <p>Sign up</p>
         <p><a href="http://kiranmai15.imad.hasura-app.io/index" target="_blank">About Me</a></p>
          <p><a href="http://kiranmai15.imad.hasura-app.io/index" target="_blank">Contact</a></p>
       </nav>
@@ -22,41 +21,29 @@
 <section class="jumbotron">
     <div class="container">
       <div class="row text-center">
-        <h2>Select a course</h2>
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">SELECT</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Core Java</a>
-    <a href="#">Operating Systems</a>
-    <a href="#">Advanced Computer Architecture</a>
-  </div>
-</div>
-        
+               <div id="menu">
+            <h3>jQuery</h3>
+            <div>
+                <p>jQuery is a JavaScript library that makes your websites look absolutely stunning.</p>
+            </div>
+            <h3>jQuery UI</h3>
+            <div>
+                <p>jQuery UI includes even more jQuery goodness!</p>
+            </div>
+            <h3>JavaScript</h3>
+            <div>
+                <p>JavaScript is a programming language used in web browsers, and it's what powers jQuery and jQuery UI. You can learn about JavaScript in the <a href="http://www.codecademy.com/tracks/javascript" target="blank" style="text-decoration:none; color:#F39814">JavaScript track</a> here on Codecademy.</p>
+            </div>
+        </div>
+<script>
+$(document).ready(function() {
+    $("#menu").accordion({collapsible: true, active: false});
+});
+</script>
         </div>
       </div>
     </section>  
-    <script>
-    /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-    </script>
 
             </body>
 </html>
