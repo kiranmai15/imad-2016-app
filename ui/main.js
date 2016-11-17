@@ -1,1 +1,26 @@
+$(document).ready(function(){
+    $('#Name').click(function(){
+    $('.panel1').slideToggle('slow');
+        });
+    });
+    $(document).ready(function(){
+    $('#Education').click(function(){
+    $('.panel2').slideToggle('slow');
+        });
+    });
+$(document).ready(function(){
+    $('#Skills').click(function(){
+    $('.panel3').slideToggle('slow');
+        });
+    });
+    $(document).ready(function(){
+    $('#Profession').click(function(){
+    $('.panel4').slideToggle('slow');
+        });
+    });
+    $(document).ready(function(){
+    $('#Interests').click(function(){
+    $('.panel5').slideToggle('slow');
+        });
+    });
 
