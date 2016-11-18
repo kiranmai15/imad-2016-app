@@ -1,5 +1,5 @@
-// Submit username/password to login
-    var submit = document.getElementById('login_btn');
+    // Submit username/password to login
+    var submit = document.getElementById('submit_btn');
     submit.onclick = function () {
         // Create a request object
         var request = new XMLHttpRequest();
@@ -10,7 +10,7 @@
               // Take some action
               if (request.status === 200) {
                   console.log("user loggin in");
-                  alert("Logge in Successfully");
+                  alert("Logged in Successfully");
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
               }else if(request.status === 500){
@@ -19,18 +19,19 @@
           }
         };
                   
-                  
-                  
-                  
-        
-                  
-    // Make the request
+ // Make the request
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
         console.log(username);
-    
         console.log(password);
         request.open('POST', '/login', true);
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({username: username, password: password})); 
 };
+function loadLoggedInUser (username) {
+    var loginArea = document.getElementById('login');
+    loginArea.innerHTML = `
+        <h3> Hi <i>${username}</i></h3>
+        <a href="/logout">Logout</a>
+    `;
+}
