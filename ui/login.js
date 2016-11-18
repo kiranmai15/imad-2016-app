@@ -107,14 +107,15 @@ function loadArticles () {
     request.onreadystatechange = function () {
         if (request.readyState === XMLHttpRequest.DONE) {
             if (request.status === 200) {
-              alert("welcome to your page")
+                 request.open('GET', '/', true);
+                 request.send(null);
+            
                 } else {
                alert("Oops! Could not load all articles!");
             }
         }
     };
     
-    request.open('GET', '/', true);
-    request.send(null);
+   
 }
 loadLoginForm();
