@@ -27,24 +27,7 @@
 <input type="password" id="password" />
 <input type="submit" id="submit_btn" />
 </div>
-        <h2>Computer Science & Engineering</h2>
-        <h3>e-Courses</h3>
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Select a course</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="http://kiranmai15.imad.hasura-app.io/article-one">Core Java</a>
-    <a href="#">Operating Systems</a>
-  </div>
-</div>
-        </div>
-      </div>
-    </section>
-     <footer class="container">
-        <div class="row text-center">
-            <p>&copy;Novice E-Learning</p>
-            </div>
-        </footer>
-     <script>
+   <script>
      // Submit username/password to login
     var submit = document.getElementById('submit_btn');
     submit.onclick = function () {
@@ -77,28 +60,25 @@
 };
 
     </script>
-    <script>
-        /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
+        <h2>Computer Science & Engineering</h2>
+        <h3>e-Courses</h3>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Select a course</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="http://kiranmai15.imad.hasura-app.io/article-one">Core Java</a>
+    <a href="#">Operating Systems</a>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+    
+  
+   
+ <footer class="container">
+        <div class="row text-center">
+            <p>&copy;Novice E-Learning</p>
+            </div>
+        </footer>
   </body>
     </html>
