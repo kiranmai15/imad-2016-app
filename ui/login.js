@@ -79,11 +79,16 @@ function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
         <h3> Hi <i>${username}</i></h3>
-        <p><a href="/article-one">Go</a></p>
+        <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Select a course</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="http://kiranmai15.imad.hasura-app.io/article-one">Core Java</a>
+    <a href="#">Operating Systems</a>
+  </div>
+</div>
         <a href="/logout">Logout</a>
     `;
-   
-}
+    }
 
 function loadLogin () {
     // Check if the user is already logged in
