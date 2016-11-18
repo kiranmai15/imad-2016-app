@@ -21,9 +21,7 @@
   <section class="jumbotron">
     <div class="container">
       <div class="row text-center">
-
-  
-        <h2>Computer Science & Engineering</h2>
+<h2>Computer Science & Engineering</h2>
         <h3>e-Courses</h3>
 <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Select a course</button>
@@ -32,12 +30,32 @@
     <a href="#">Operating Systems</a>
   </div>
 </div>
+
+
         </div>
       </div>
     </section>
-    
-  
-   
+   <script>
+   function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+   </script>
+ 
  <footer class="container">
         <div class="row text-center">
             <p>&copy;Novice E-Learning</p>
