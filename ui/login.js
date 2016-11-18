@@ -101,21 +101,5 @@ function loadLogin () {
     request.send(null);
 }
 
-function loadArticles () {
-        // Check if the user is already logged in
-    var request = new XMLHttpRequest();
-    request.onreadystatechange = function () {
-        if (request.readyState === XMLHttpRequest.DONE) {
-            if (request.status === 200) {
-                 request.open('GET', '/', true);
-                 request.send(null);
-            
-                } else {
-               alert("Oops! Could not load all articles!");
-            }
-        }
-    };
-    
-   
-}
+
 loadLoginForm();
