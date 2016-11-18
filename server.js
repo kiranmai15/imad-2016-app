@@ -23,6 +23,12 @@ app.use(bodyParser.json());
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.html'));
 });
+app.get('/ui/index',function(req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
+app.get('/ui/loginform',function(req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'loginform.html'));
+});
 function hash (input, salt) {
     // How do we create a hash?
     var hashed = crypto.pbkdf2Sync(input, salt, 10000, 512, 'sha512');
@@ -78,12 +84,7 @@ app.post('/login', function (req, res) {
    });
 });
 
-app.get('/ui/index',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-});
-app.get('/ui/loginform',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'loginform.html'));
-});
+
 app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
