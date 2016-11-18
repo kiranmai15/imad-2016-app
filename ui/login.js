@@ -1,4 +1,13 @@
 function loadLoginForm () {
+    var loginHtml = `
+        <h3>Login/Register to unlock awesome features</h3>
+        <input type="text" id="username" placeholder="username" />
+        <input type="password" id="password" />
+        <br/><br/>
+        <input type="submit" id="login_btn" value="Login" />
+        <input type="submit" id="register_btn" value="Register" />
+        `;
+document.getElementById('login_area').innerHTML = loginHtml;
    // Submit username/password to login
     var submit = document.getElementById('login_btn');
     submit.onclick = function () {
@@ -67,7 +76,7 @@ function loadLoginForm () {
 }
 
 function loadLoggedInUser (username) {
-    var loginArea = document.getElementById('login');
+    var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
         <h3> Hi <i>${username}</i></h3>
         <a href="/logout">Logout</a>
