@@ -96,7 +96,7 @@ if (req.session && req.session.auth && req.session.auth.userId) {
 }else{
     res.send("You are not logged in");
 }
-}
+
 });
 app.get('/ui/index',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'index.html'));
