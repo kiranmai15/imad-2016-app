@@ -81,7 +81,9 @@ app.post('/login', function (req, res) {
 app.get('/ui/index',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
+app.get('/ui/loginform',function(req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'loginform.html'));
+});
 app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
