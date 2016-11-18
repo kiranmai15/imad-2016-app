@@ -117,4 +117,3 @@ function loadArticles () {
     request.send(null);
 }
 loadLoginForm();
-loadArticles();
