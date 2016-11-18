@@ -79,7 +79,7 @@ function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
         <h3> Hi <i>${username}</i></h3>
-        <p><a href="/">Go</a></p>
+        <p><a href="/article-one">Go</a></p>
         <a href="/logout">Logout</a>
     `;
    
