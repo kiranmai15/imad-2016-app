@@ -99,6 +99,7 @@ if (req.session && req.session.auth && req.session.auth.userId) {
 }else{
     res.send("You are not logged in");
 }
+request.open('GET', '/', true);
 });
 app.get('/logout', function (req, res) {
    delete req.session.auth;
