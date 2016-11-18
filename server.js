@@ -29,7 +29,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.html'));
 });
 
-app.get('/ui/loginform',function(req,res){
+app.get('/loginform',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'loginform.html'));
 });
 function hash (input, salt) {
@@ -99,9 +99,9 @@ if (req.session && req.session.auth && req.session.auth.userId) {
 });
 app.get('/logout', function (req, res) {
    delete req.session.auth;
-   res.send('<html><body>Logged out!<br/><br/><a href="/">Back to home</a></body></html>');
+   res.send('<html><body>Logged out!<br/><br/><a href="/">Back to Home</a></body></html>');
 });
-app.get('/ui/index',function(req,res){
+app.get('/index',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/article-one', function (req, res) {
