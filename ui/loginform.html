@@ -11,9 +11,6 @@
 <input type="password" id="password" />
 <input type="submit" id="submit_btn" />
 </div>
- <div id="login_area">
-                <center>Loading login status...</center>
-</div>
    <script>
      // Submit username/password to login
     var submit = document.getElementById('submit_btn');
@@ -46,7 +43,7 @@
         request.send(JSON.stringify({username: username, password: password})); 
 };
 function loadLoggedInUser (username) {
-    var loginArea = document.getElementById('login_area');
+    var loginArea = document.getElementById('login');
     loginArea.innerHTML = `
         <h3> Hi <i>${username}</i></h3>
         <a href="/logout">Logout</a>
