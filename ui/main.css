@@ -106,7 +106,7 @@ header p {
     font-size:30px;
  
 }
-.login{
+.login,.register{
     color:black;
     font-size: 15px;
 }
