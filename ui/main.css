@@ -64,7 +64,7 @@ header p {
 
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: white;
+    background-color:  #DAF7A6 ;
 }
 
 
@@ -94,7 +94,7 @@ header p {
 }
 
 
-.dropdown-content a:hover {background-color: white }
+.dropdown-content a:hover {background-color:  #DAF7A6  }
 
 
 .show {display:block;}
