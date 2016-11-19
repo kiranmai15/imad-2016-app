@@ -2,16 +2,35 @@
 <html>
 <head>
 <title>Log in</title>
-
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="/ui/main.css">
 </head>
 <body>
- <div id="login_area">
+<header class="container">
+    <div class="row">
+     <h1 class="col-sm-4">Log in</h1>
+      <nav class="col-sm-8 text-right">
+        <h3>New User?</h3>
+        <p><a href="http://kiranmai15.imad.hasura-app.io/register">Sign up</a></p>
+         </nav>
+    </div>
+</header>
+<section class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+        <div id="login_area">
                 <center>Loading login status...</center>
-                
-</div>
- <script type="text/javascript" src="/ui/login.js">
+        </div>
+        <script type="text/javascript" src="/ui/login.js">
         </script>
-
+      </div>
+    </div>
+</section>
+ <footer class="container">
+        <div class="row text-center">
+            <p>&copy; 2016 Novice E-Learning</p>
+        </div>
+ </footer>
 </body>
 </html>
