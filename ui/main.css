@@ -81,7 +81,7 @@ header p {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     font-size: 16px;
-    font-family: serif;
+    font-family: cursive;
 }
 
 
@@ -93,7 +93,7 @@ header p {
 }
 
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #FFA07A }
 
 
 .show {display:block;}
