@@ -1,6 +1,9 @@
 function signupElement(){
+    
+  var ni = document.getElementById('login_area');
      var newdiv = document.createElement('div');
-      newdiv = '<a href="http://kiranmai15.imad.hasura-app.io/register">Sign up</a>';
+      newdiv.innerHTML = '<a href="http://kiranmai15.imad.hasura-app.io/register">Sign up</a>';
+      ni.appendChild(newdiv);
 }
 function loadLoginForm () {
     var loginHtml = `
@@ -31,7 +34,7 @@ function loadLoginForm () {
                   loadLogin();
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
-                  submit.value= '<a href="http://kiranmai15.imad.hasura-app.io/register">Sign up</a>';
+                  signupElement();
          
               }else if(request.status === 500){
                   alert("Something went wrong on server");
