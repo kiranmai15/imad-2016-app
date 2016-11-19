@@ -24,8 +24,10 @@ function loadLoginForm () {
                   loadLogin();
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
+                  submit.value = 'Logging in...';
               }else if(request.status === 500){
                   alert("Something went wrong on server");
+                  submit.value = 'Logging in...';
               }
               
           }  
