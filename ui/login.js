@@ -25,6 +25,7 @@ function loadLoginForm () {
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
                   submit.value = 'Log in';
+                   signupuser();
               }else if(request.status === 500){
                   alert("Something went wrong on server");
                   submit.value = 'Log in';
@@ -48,9 +49,14 @@ function loadLoginForm () {
     
    
 }
-
+function signupuser(){
+    var signArea = document.getElementById('login_area');
+    signArea.innerHTML =
+        <h3> Hi </h3>
+        <a href="http://kiranmai15.imad.hasura-app.io/register">Sign up</a> ;
+}
 function loadLoggedInUser (username) {
-    var loginArea = document.getElementById('user_area');
+    var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
         <h3> Hi <i>${username}</i></h3>
         <div class="dropdown">
