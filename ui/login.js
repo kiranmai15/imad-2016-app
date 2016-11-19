@@ -1,12 +1,15 @@
 function loadLoginForm () {
     var loginHtml = `
-        <h3>Login/Register to unlock awesome features</h3>
+    <h3>Login/Register to unlock awesome features</h3>
         <input type="text" id="username" placeholder="username" />
         <input type="password" id="password" />
         <br/><br/>
        <input type="submit" id="login_btn" value="Login" />
       
         `;
+  
+   
+        
        document.getElementById('login_area').innerHTML = loginHtml;
    // Submit username/password to login
     var submit = document.getElementById('login_btn');
@@ -25,7 +28,7 @@ function loadLoginForm () {
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
                   submit.value = 'Log in';
-                   
+         
               }else if(request.status === 500){
                   alert("Something went wrong on server");
                   submit.value = 'Log in';
