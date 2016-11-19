@@ -27,12 +27,13 @@ function loadLoginForm () {
                   loadLogin();
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
-                  signupElement()
+                  submit.value = 'Log in...';
+                  signupElement();
          
               }else if(request.status === 500){
                   alert("Something went wrong on server");
                   submit.value = 'Log in';
-                  signupElement()
+                  signupElement();
               }
               
           }  
