@@ -56,6 +56,7 @@ header p {
    padding:20px;
     font-size: 20px;
     font-weight: bold;
+    font-family: cursive;
     border: none;
     cursor: pointer;
    
@@ -63,7 +64,7 @@ header p {
 
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #FFA07A;
+    background-color: white;
 }
 
 
@@ -93,7 +94,7 @@ header p {
 }
 
 
-.dropdown-content a:hover {background-color: #FFA07A }
+.dropdown-content a:hover {background-color: white }
 
 
 .show {display:block;}
