@@ -35,6 +35,9 @@ app.get('/loginform',function(req,res){
 app.get('/register',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'register.html'));
 });
+app.get('/courses',function(req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'courses.html'));
+});
 function hash (input, salt) {
     // How do we create a hash?
     var hashed = crypto.pbkdf2Sync(input, salt, 10000, 512, 'sha512');
