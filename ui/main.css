@@ -103,7 +103,7 @@ header p {
     font-size:30px;
  
 }
-.login,.register{
+.register{
     color:black;
     font-size: 15px;
 }
@@ -112,4 +112,5 @@ header p {
 }
 #login_area{
     background-color:#DAF7A6 ;
+    color: black;
 }
