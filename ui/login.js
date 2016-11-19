@@ -27,7 +27,7 @@ function loadLoginForm () {
                   loadLogin();
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
-                  submit.value = signupElement();
+                  signupElement();
          
               }else if(request.status === 500){
                   alert("Something went wrong on server");
