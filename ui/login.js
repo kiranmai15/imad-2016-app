@@ -21,12 +21,13 @@ function loadLoginForm () {
                if (request.status === 200) {
                   console.log("user loggin in");
                   alert("Logged in Successfully");
+                  loadLogin();
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
               }else if(request.status === 500){
                   alert("Something went wrong on server");
               }
-              loadLogin();
+              
           }  
           // Not done yet
         };
