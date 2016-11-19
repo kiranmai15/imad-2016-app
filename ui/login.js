@@ -27,7 +27,6 @@ function loadLoginForm () {
                   loadLogin();
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
-                  submit.value = 'Log in';
                   signupElement()
          
               }else if(request.status === 500){
