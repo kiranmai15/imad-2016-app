@@ -1,35 +1,65 @@
 <!DOCTYPE HTML>
+
 <html>
 <head>
 <title>Sign up</title>
-<link rel="stylesheet" type="text/css" href="/ui/main.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="signup.css">
 </head>
 <body>
-<h3>Register</h3>
-<div class="register">
-<input type="text" id="username" placeholder="username" />
-<input type="password" id="password" />
-<input type="submit" id="register_btn" value="Register" />
-</div>
-<script>
- var register = document.getElementById('register_btn');
-    register.onclick = function () {
+    <header class="container">
+    <div class="row">
+     <h1 class="col-sm-4">Sign up</h1>
+      <nav class="col-sm-8 text-right">
+         <p> <a href="http://kiranmai15.imad.hasura-app.io/loginform">Log in</a></p>
+       </nav>
+     </div>
+    </header>
+   
+    
+<section class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+           <div class="register">
+              <form>
+               First Name:<br>
+               <input type="text" id="username" placeholder="firstname" />
+               <br>
+               Last Name:<br>
+               <input type="text" id="username" placeholder="lastname" />
+               <br>
+               Username:<br>
+               <input type="text" id="username" placeholder="username" />
+               <br>
+                Password:<br>
+                <input type="password" id="password" />
+                <br>
+                Email-Address:<br>
+                <input type="text" id="username" placeholder="email" />
+                <br>
+                 <input type="submit" id="register_btn" value="Register" />
+                 </form>
+               </div>
+      <script>
+        var register = document.getElementById('register_btn');
+         register.onclick = function () {
         // Create a request object
-        var request = new XMLHttpRequest();
+            var request = new XMLHttpRequest();
         
         // Capture the response and store it in a variable
-        request.onreadystatechange = function () {
-          if (request.readyState === XMLHttpRequest.DONE) {
+                 request.onreadystatechange = function () {
+                  if (request.readyState === XMLHttpRequest.DONE) {
               // Take some action
-              if (request.status === 200) {
-                  alert('User created successfully');
-                  register.value = 'Registered!';
-              } else {
-                  alert('Could not register the user');
-                  register.value = 'Register';
-              }
-          }
-        };
+                      if (request.status === 200) {
+                        alert('User created successfully');
+                        register.value = 'Registered!';
+                      } else {
+                           alert('Could not register the user');
+                             register.value = 'Register';
+                      }
+                     }
+                 };
         
         // Make the request
         var username = document.getElementById('username').value;
@@ -43,6 +73,14 @@
     
 };
 </script>
-<a href="http://kiranmai15.imad.hasura-app.io/loginform">Log in</a>
+</div>
+    </div>
+</section>
+ <footer class="container">
+        <div class="row text-center">
+            <p>&copy; 2016 Novice E-Learning</p>
+        </div>
+ </footer>
+
 </body>
 </html>
