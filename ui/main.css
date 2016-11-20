@@ -112,8 +112,9 @@ header p {
 }
 #login_area{
     background-color:#DAF7A6 ;
-    margin-top:-300px;
+    margin-top:-250px;
     margin-left:500px;
-    width:200px;
+    width:300px;
     color: black;
+    font-size:30px;
 }
