@@ -1,5 +1,5 @@
 function signupForm(){
-var signupHTML=`
+   var signupHTML=`
         Username:<br>
         <input type="text" id="username" placeholder="username" />
         <br>
@@ -8,7 +8,7 @@ var signupHTML=`
         <br/><br/>
        <input type="submit" id="register_btn" value="Register" />
        `;
-document.getElementById('register_area').innerHTML = signupHtml;
+       document.getElementById('register_area').innerHTML = signupHtml;
 
 var register = document.getElementById('register_btn');
     register.onclick = function () {
