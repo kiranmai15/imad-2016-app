@@ -48,11 +48,11 @@ header p {
     font-family: serif;
 }
 .droparea a{
-    margin-top:30px;
+    margin-top:50px;
     text-decoration:none;
 }
 .droparea a:hover{
-    background-color:#DAF7A6;
+    color:#DAF7A6;
 }
 #register_btn, #login_btn, .dropbtn{
     margin-top: 10px;
