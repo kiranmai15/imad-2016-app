@@ -51,7 +51,7 @@
                  request.onreadystatechange = function () {
                   if (request.readyState === XMLHttpRequest.DONE) {
               // Take some action
-                      if (request.status!=0) {
+                      if (request.status === 200) {
                         alert('User created successfully');
                         register.value = 'Registered!';
                       } else {
