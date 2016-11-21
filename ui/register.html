@@ -27,7 +27,7 @@
                <input type="text" id="firstname" placeholder="enter your firstname" />
                <br>
                Surname<br>
-               <input type="text" id="surname" placeholder="enter your lastname" />
+               <input type="text" id="lastname" placeholder="enter your lastname" />
                <br>
                Username<br>
                <input type="text" id="username" placeholder="enter your username" />
@@ -63,7 +63,7 @@
         
         // Make the request
         var firstname = document.getElementById('firstname').value;
-        var surname = document.getElementById('surname').value;
+        var lastname = document.getElementById('lastname').value;
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
         var email = document.getElementById('email').value;
@@ -71,7 +71,7 @@
         console.log(password);
         request.open('POST', '/create-user', true);
         request.setRequestHeader('Content-Type', 'application/json');
-        request.send(JSON.stringify({firstname: firstname, surname: surname, username: username, password: password, email: email}));  
+        request.send(JSON.stringify({firstname: firstname, lastname: lastname, username: username, password: password, email: email}));  
         register.value = 'Registering...';
     
 };
