@@ -1,10 +1,3 @@
-function signupElement(){
-    
-  var ni = document.getElementById('login_area');
-     var newdiv = document.createElement('div');
-      newdiv.innerHTML = '<a href="http://kiranmai15.imad.hasura-app.io/register">Sign up</a>';
-      ni.appendChild(newdiv);
-}
 function loadLoginForm () {
     var loginHtml = `
         Username:<br>
@@ -14,7 +7,7 @@ function loadLoginForm () {
         <input type="password" id="password" />
         <br/><br/>
        <input type="submit" id="login_btn" value="Login" />
-      <input type="submit" id="register_btn" value="register" />
+      <input type="submit" id="register_btn" value="Register" />
         `;
   
    
@@ -37,12 +30,12 @@ function loadLoginForm () {
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
                   submit.value = 'Log in Failed';
-                  signupElement();
+                 
          
               }else if(request.status === 500){
                   alert("Something went wrong on server");
                   submit.value = 'Log in Failed';
-                  signupElement();
+                 
               }
               
           }  
@@ -87,7 +80,7 @@ function loadLoginForm () {
         console.log(password);
         request.open('POST', '/create-user', true);
         request.setRequestHeader('Content-Type', 'application/json');
-        request.send(JSON.stringify({Username: username, Password: password}));  
+        request.send(JSON.stringify({username: username, password: password}));  
         register.value = 'Registering...';
     
 };
