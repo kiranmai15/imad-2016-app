@@ -1,14 +1,17 @@
 function signupForm(){
-   var signupHTML=`
-        Username:<br>
+  
+     var ni = document.getElementById('register_area');
+     var newdiv = document.createElement('div');
+      newdiv.innerHTML = `Username:<br>
         <input type="text" id="username" placeholder="username" />
         <br>
         Password:<br>
         <input type="password" id="password" />
         <br/><br/>
        <input type="submit" id="register_btn" value="Register" />
-       `;
-       document.getElementById('register_area').innerHTML = signupHtml;
+      `;
+      ni.appendChild(newdiv);
+       
 
 var register = document.getElementById('register_btn');
     register.onclick = function () {
