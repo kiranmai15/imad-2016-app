@@ -32,9 +32,7 @@ app.get('/', function (req, res) {
 app.get('/loginform',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'loginform.html'));
 });
-app.get('/register',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'register.html'));
-});
+
 app.get('/courses',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'courses.html'));
 });
@@ -119,9 +117,7 @@ app.get('/article-one', function (req, res) {
 app.get('/ui/main.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.css'));
 });
-app.get('/ui/signup.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'signup.css'));
-});
+
 
 app.get('/ui/article-one.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.css'));
@@ -138,9 +134,6 @@ app.get('/ui/login.js',function(req,res){
 });
 app.get('/ui/signup.js',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'signup.js'));
-});
-app.get('/ui/course1.js',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'course1.js'));
 });
 
 app.get('/ui/style.css', function (req, res) {
