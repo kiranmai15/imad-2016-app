@@ -76,7 +76,7 @@ function loadLoggedInUser (username) {
     <a href="#">Operating Systems</a>
   </div>
 </div>
-       <a href="/logout">Logout</a>
+       <p><a href="/logout">Logout</a></p>
        </div>
         
     `;
