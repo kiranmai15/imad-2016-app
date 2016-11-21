@@ -1,14 +1,14 @@
 function signupForm(){
 var signupHTML=`
-             Username:<br>
-               <input type="text" id="username" placeholder="enter your username" />
-               <br>
-                Password:<br>
-                <input type="password" id="password" />
-                <br>
-                 <input type="submit" id="register_btn" value="Register" />
-                 `;
-                 document.getElementById('register_area').innerHTML = signupHtml;
+        Username:<br>
+        <input type="text" id="username" placeholder="username" />
+        <br>
+        Password:<br>
+        <input type="password" id="password" />
+        <br/><br/>
+       <input type="submit" id="register_btn" value="Register" />
+       `;
+document.getElementById('register_area').innerHTML = signupHtml;
 
 var register = document.getElementById('register_btn');
     register.onclick = function () {
