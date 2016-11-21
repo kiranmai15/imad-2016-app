@@ -42,3 +42,4 @@ var register = document.getElementById('register_btn');
     
 };
 }
+signupForm();
