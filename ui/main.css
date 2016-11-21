@@ -25,7 +25,8 @@ header nav {
 header p {
   padding: 0 20px;
   margin: 0;
-  font-size:30px;
+  font-size:20px;
+  font-weight: bold;
 }
 
 .jumbotron {
@@ -49,73 +50,10 @@ header p {
   margin-top: 10px;
   color: #fff;
 }
-.dropbtn {
-  
-    margin-top:-200px;
-    background-color: #edbb99;
-    color: black;
-   padding:20px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: serif;
-    border: none;
-    cursor: pointer;
-   
-}
 
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color:  #DAF7A6 ;
-}
-
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    padding-top:50px;
-}
-
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #FFA07A ;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-size: 16px;
-    font-family: cursive;
-}
-
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-
-.dropdown-content a:hover {background-color:  #DAF7A6  }
-
-
-.show {display:block;}
 
 .footer{
     font-size:30px;
  
 }
-.register{
-    color:black;
-    font-size: 15px;
-}
-#password{
-    color:black;
-}
-#login_area{
-    background-color:#DAF7A6 ;
-    margin-top:-250px;
-    margin-left:450px;
-    width:300px;
-    color: black;
-    font-size:20px;
-}
+
