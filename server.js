@@ -54,12 +54,12 @@ app.post('/create-user', function (req, res) {
    // JSON
    var username = req.body.username;
    var password = req.body.password;
-   var firstname = req.body.firstname;
-   var lastname = req.body.lastname;
-   var email = req.body.email;
+   //var firstname = req.body.firstname;
+   //var lastname = req.body.lastname;
+   //var email = req.body.email;
    var salt = crypto.randomBytes(128).toString('hex');
    var dbString = hash(password, salt);
-   pool.query('INSERT INTO "user" (username, password, firstname, lastname, email) VALUES ($1, $2, $3, $4, $5)', [username, dbString, firstname, lastname, email], function (err, result) {
+   pool.query('INSERT INTO "user" (username, password) VALUES ($1, $2, $3, $4, $5)', [username, dbString], function (err, result) {
       if (err) {
           res.status(500).send(err.toString());
       } else {
