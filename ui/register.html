@@ -21,7 +21,7 @@
 <section class="jumbotron">
     <div class="container">
       <div class="row text-center">
-           <div class="register">
+           <div id="register">
              
               <!--- First name<br>
                <input type="text" id="firstname" placeholder="enter your firstname" />
@@ -29,19 +29,25 @@
                Surname<br>
                <input type="text" id="lastname" placeholder="enter your lastname" />
                <br>-->
-               Username<br>
+              
+                <!--Email-Address<br>
+                <input type="text" id="email" placeholder="email@gmail.com" />
+                <br>-->
+                
+               
+               </div>
+<script>
+var signupHTML=`
+ Username<br>
                <input type="text" id="username" placeholder="enter your username" />
                <br>
                 Password<br>
                 <input type="password" id="password" />
                 <br>
-                <!--Email-Address<br>
-                <input type="text" id="email" placeholder="email@gmail.com" />
-                <br>-->
                  <input type="submit" id="register_btn" value="Register" />
-               
-               </div>
-<script>
+                 `;
+                 document.getElementById('register').innerHTML = signupHtml;
+
 var register = document.getElementById('register_btn');
     register.onclick = function () {
         alert('about to register');
