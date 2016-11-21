@@ -49,7 +49,7 @@ header p {
 }
 
 .droparea p{
-    margin-top:70px;
+    margin-top:80px;
   
 }
 
@@ -63,7 +63,7 @@ header p {
   
 }
 .dropdown-content {
-    margin-top:20px;
+    
     display: none;
     position: absolute;
     background-color: #FFA07A ;
