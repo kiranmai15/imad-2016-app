@@ -38,7 +38,7 @@ header p {
   height: 600px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
-#register,#login_area{
+#register_area,#login_area{
     background-color:#DAF7A6 ;
     margin-top:-50px;
     margin-left:450px;
