@@ -23,20 +23,20 @@
       <div class="row text-center">
            <div class="register">
               <form>
-               First Name:<br>
-               <input type="text" id="username" placeholder="firstname" />
+               First name<br>
+               <input type="text" id="firstname" placeholder="enter your firstname" />
                <br>
-               Last Name:<br>
-               <input type="text" id="username" placeholder="lastname" />
+               Surname<br>
+               <input type="text" id="surname" placeholder="enter your lastname" />
                <br>
-               Username:<br>
-               <input type="text" id="username" placeholder="username" />
+               Username<br>
+               <input type="text" id="username" placeholder="enter your username" />
                <br>
-                Password:<br>
+                Password<br>
                 <input type="password" id="password" />
                 <br>
-                Email-Address:<br>
-                <input type="text" id="username" placeholder="email" />
+                Email-Address<br>
+                <input type="text" id="email" placeholder="email@gmail.com" />
                 <br>
                  <input type="submit" id="register_btn" value="Register" />
                  </form>
@@ -62,13 +62,16 @@
                  };
         
         // Make the request
+        var firstname = document.getElementById('firstname').value;
+        var surname = document.getElementById('surname').value;
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
+        var email = document.getElementById('email').value;
         console.log(username);
         console.log(password);
         request.open('POST', '/create-user', true);
         request.setRequestHeader('Content-Type', 'application/json');
-        request.send(JSON.stringify({username: username, password: password}));  
+        request.send(JSON.stringify({firstname: firstname, surname: surname, username: username, password: password, email: email}));  
         register.value = 'Registering...';
     
 };
