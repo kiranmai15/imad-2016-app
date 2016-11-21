@@ -47,9 +47,7 @@ header p {
     font-size:20px;
     font-family: serif;
 }
-.droparea{
-    display:flex;
-}
+
 .droparea p{
     margin-top:50px;
     text-decoration:none;
