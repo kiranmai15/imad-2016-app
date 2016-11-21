@@ -3,13 +3,13 @@ function signupForm(){
      var ni = document.getElementById('register_area');
      var newdiv = document.createElement('div');
       newdiv.innerHTML = `
-       Username:<br>
+       First name:<br>
         <input type="text" id="firstname" placeholder="enter your name" />
         <br>
-         Username:<br>
+         Surname:<br>
         <input type="text" id="lastname" placeholder="enter your surname" />
         <br>
-         Username:<br>
+         Email Address:<br>
         <input type="text" id="email" placeholder="email@gmail.com" />
         <br>
       Username:<br>
