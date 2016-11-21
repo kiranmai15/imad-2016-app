@@ -27,6 +27,7 @@ header p {
   margin: 0;
   font-size:25px;
   font-weight: bold;
+  color:black;
 }
 .jumbotron {
   display: flex;
@@ -37,7 +38,7 @@ header p {
   height: 600px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
-.register{
+.register,#login_area{
     background-color:#DAF7A6 ;
     margin-top:-50px;
     margin-left:450px;
