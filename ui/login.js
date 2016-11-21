@@ -67,6 +67,7 @@ function loadLoginForm () {
 function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
+        <div class=dropdown_area>
         <h3> Hi <i>${username}</i></h3>
         <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Select a course</button>
@@ -76,6 +77,7 @@ function loadLoggedInUser (username) {
   </div>
 </div>
         <a href="/logout">Logout</a>
+        </div>
     `;
     }
  function myFunction() {
