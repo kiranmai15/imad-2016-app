@@ -71,7 +71,7 @@
         console.log(password);
         request.open('POST', '/create-user', true);
         request.setRequestHeader('Content-Type', 'application/json');
-        request.send(JSON.stringify({firstname: firstname, lastname: lastname, username: username, password: password, email: email}));  
+        request.send(JSON.stringify({username: username, password: password, firstname: firstname, lastname: lastname, email: email}));  
         register.value = 'Registering...';
     
 };
