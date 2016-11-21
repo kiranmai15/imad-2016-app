@@ -23,21 +23,21 @@
       <div class="row text-center">
            <div class="register">
               <form>
-               First name<br>
+              <!--- First name<br>
                <input type="text" id="firstname" placeholder="enter your firstname" />
                <br>
                Surname<br>
                <input type="text" id="lastname" placeholder="enter your lastname" />
-               <br>
+               <br>-->
                Username<br>
                <input type="text" id="username" placeholder="enter your username" />
                <br>
                 Password<br>
                 <input type="password" id="password" />
                 <br>
-                Email-Address<br>
+                <!--Email-Address<br>
                 <input type="text" id="email" placeholder="email@gmail.com" />
-                <br>
+                <br>-->
                  <input type="submit" id="register_btn" value="Register" />
                  </form>
                </div>
@@ -62,19 +62,17 @@
                  };
         
         // Make the request
-        var firstname = document.getElementById('firstname').value;
-        var lastname = document.getElementById('lastname').value;
+       // var firstname = document.getElementById('firstname').value;
+       // var lastname = document.getElementById('lastname').value;
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
-        var email = document.getElementById('email').value;
+       // var email = document.getElementById('email').value;
         console.log(username);
         console.log(password);
-        console.log(firstname);
-        console.log(lastname);
-        console.log(email);
+      
         request.open('POST', '/create-user', true);
         request.setRequestHeader('Content-Type', 'application/json');
-        request.send(JSON.stringify({username: username, password: password, firstname: firstname, lastname: lastname, email: email}));  
+        request.send(JSON.stringify({username: username, password: password}));  
         register.value = 'Registering...';
     
 };
