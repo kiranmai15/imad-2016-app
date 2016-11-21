@@ -38,7 +38,7 @@ header p {
   height: 600px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
-.register,#login_area, .dropdown_area{
+.register,#login_area{
     background-color:#DAF7A6 ;
     margin-top:-50px;
     margin-left:450px;
@@ -47,11 +47,11 @@ header p {
     font-size:20px;
     font-family: serif;
 }
-#register_btn, #login_btn{
+#register_btn, #login_btn, .dropbtn{
     margin-top: 10px;
     background-color: #eb984e ; 
 }
-#register_btn:hover, #login_btn:hover{
+#register_btn:hover, #login_btn:hover, .dropbtn:hover{
     background-color:#aed6f1 ;
     border-color: black;
   
