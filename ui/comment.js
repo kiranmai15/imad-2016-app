@@ -93,4 +93,5 @@ function loadComments () {
 }
 
 loadCommentForm();
+loadLogin();
 loadComments();
