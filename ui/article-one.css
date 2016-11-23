@@ -28,7 +28,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("https://images7.alphacoders.com/317/thumb-1920-317395.JPG");
+  background-color:  #fdf2e9 ;
   background-size: cover;
   color: black;
   height: 600px;
@@ -36,4 +36,8 @@ header p {
 }
 #submitcomment, #comments{
     color:black;
+}
+.footer{
+    font-size:30px;
+ 
 }
