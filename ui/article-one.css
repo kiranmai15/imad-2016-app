@@ -35,8 +35,8 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 #comments{
-    width:500px;
-    height:500px;
+    width:800px;
+    height:250px;
     background-color: #5dade2 ;
     color:black;
     font:1.4em/1.6em cursive;
