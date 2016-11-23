@@ -42,9 +42,8 @@ header p {
     font:1.4em/1.6em cursive;
     overflow:scroll;
 }
-#submitcomment, #comments{
-    color:black;
-    font:1.4em/1.6em cursive;
+#submitcomment{
+    overflow:scroll;
 }
 .footer{
     font-size:30px;
