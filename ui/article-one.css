@@ -33,7 +33,7 @@ header p {
   color: black;
   height: 1000px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
-  overflow:scroll;
+  
 }
 #comments{
     width:1000px;
