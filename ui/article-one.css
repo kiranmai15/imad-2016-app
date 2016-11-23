@@ -36,12 +36,11 @@ header p {
   overflow:scroll;
 }
 #comments{
-    width:800px;
-    height:250px;
+    width:1000px;
     background-color: #5dade2 ;
     color:black;
     font:1.4em/1.6em cursive;
-    overflow:scroll;
+    
 }
 .footer{
     font-size:30px;
