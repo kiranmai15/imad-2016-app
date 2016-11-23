@@ -31,8 +31,9 @@ header p {
   background-color:  #fdf2e9 ;
   background-size: cover;
   color: black;
-  height: 600px;
+  height: 1000px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  overflow:scroll;
 }
 #comments{
     width:800px;
@@ -40,9 +41,6 @@ header p {
     background-color: #5dade2 ;
     color:black;
     font:1.4em/1.6em cursive;
-    overflow:scroll;
-}
-#submitcomment{
     overflow:scroll;
 }
 .footer{
