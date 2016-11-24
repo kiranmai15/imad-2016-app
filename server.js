@@ -122,7 +122,9 @@ app.get('/index',function(req,res){
 app.get('/register',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'register.html'));
 });
-app
+app.get('/courses',function(req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'courses.html'));
+});
 app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
