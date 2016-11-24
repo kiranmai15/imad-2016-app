@@ -79,7 +79,7 @@ function loadLoggedInUser (username) {
         <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Select a course</button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="http://kiranmai15.imad.hasura-app.io/article-one">Core Java</a>
+    <a href="http://kiranmai15.imad.hasura-app.io/courses">Core Java</a>
     <a href="#">Operating Systems</a>
   </div>
 </div>
