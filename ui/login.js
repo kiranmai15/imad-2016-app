@@ -70,7 +70,7 @@ function loadLoginForm () {
 function loadLoggedInUser (username) {
     var headerArea = document.getElementById('header');
     headerArea.innerHTML =`
-    <p><a style="flow:right;font-weight:bold;font-size:25px;" href="/logout">Logout</a></p>
+    <p><a style="float:right;font-weight:bold;font-size:25px;" href="/logout">Logout</a></p>
     `;
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
