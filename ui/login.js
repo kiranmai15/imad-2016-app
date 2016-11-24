@@ -3,7 +3,7 @@ function signForm(){
      var ni = document.getElementById('login_area');
      var newdiv = document.createElement('div');
       newdiv.innerHTML = `
-      <h3>New User?<a href="/ui/register.html">Sign up</a></h3>
+      <h3>New User? <a style="text-decoration:none;font-weight:bold;" href="http://kiranmai15.imad.hasura-app.io/register">Sign up</a></h3>
       `;
       ni.appendChild(newdiv);
 }
