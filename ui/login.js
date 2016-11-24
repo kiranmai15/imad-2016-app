@@ -1,3 +1,12 @@
+function signupForm(){
+  
+     var ni = document.getElementById('login_area');
+     var newdiv = document.createElement('div');
+      newdiv.innerHTML = `
+      <h3>New User?<a href="/ui/register.html">Sign up</a></h3>
+      `;
+      ni.appendChild(newdiv);
+}
 function loadLoginForm () {
     var loginHtml = `
         Username:<br>
@@ -30,12 +39,12 @@ function loadLoginForm () {
               }else if(request.status === 403){
                   alert("Username/Password is incorrect");
                   submit.value = 'Log in Failed';
-                 
+                   signupForm();
          
               }else if(request.status === 500){
                   alert("Something went wrong on server");
                   submit.value = 'Log in Failed';
-                 
+                   signupForm();
               }
               
           }  
@@ -62,7 +71,7 @@ function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
        <div class="droparea">
-        <h3>HI<i>${username}</i></h3>
+        <h3>Welcome <i>${username}</i></h3>
         <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Select a course</button>
   <div id="myDropdown" class="dropdown-content">
