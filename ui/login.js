@@ -62,7 +62,7 @@ function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
        <div class="droparea">
-        <h3><script>confirm("${username}");</script></h3>
+        <script>confirm(${username});</script>
         <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Select a course</button>
   <div id="myDropdown" class="dropdown-content">
