@@ -68,6 +68,10 @@ function loadLoginForm () {
 }
 
 function loadLoggedInUser (username) {
+    var headerArea = document.getElementById('header');
+    headerArea.innerHTML =`
+    <p><a href="/logout">Logout</a></p>
+    `;
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
        <div class="droparea">
@@ -79,7 +83,7 @@ function loadLoggedInUser (username) {
     <a href="#">Operating Systems</a>
   </div>
 </div>
-       <p><a href="/logout">Logout</a></p>
+       
        </div>
         
     `;
