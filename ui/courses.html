@@ -1,13 +1,45 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>User</title>
+<link rel="stylesheet" type="text/css" href="/ui/menustyle.css">
 
-<script type="text/javascript" src="/ui/login.js"></script>
 </head>
 <body>
-<h3>Welcome</h3>
-<div class="user_area">
-    </div>
+
+<h2>Welcome to Java Course</h2>
+
+<button class="accordion">Chapter-1</button>
+<div class="panel">
+    
+  <p> <input type="radio" name="chapter-1"  onClick="window.location = '/ui/article-one';" >Introduction to Java<br>Programming</p>
+  <p><input type="radio" name="chapter-1">JDK Installation & <br>Setting path</p>
+  <p><input type="radio" name="chapter-1" onClick="window.location = 'http://gmail.com/';">Datatypes & Variables</p>
+  <p> <input type="radio" name="chapter-1">Java Tokens</p>
+   
+</div>
+<button class="accordion">Chapter-2</button>
+<div class="panel">
+  <p><input type="radio" name="chapter-2" >control structures</p>
+  <p><input type="radio" name="chapter-2" >Scanner Class</p>
+  <p><input type="radio" name="chapter-2">Buffered Reader</p>
+</div>
+
+<button class="accordion">Chapter-3</button>
+<div id="foo" class="panel">
+  <p><input type="radio" name="chapter-3">Object and Class in Java</p>
+  <p><input type="radio" name="chapter-3">Type Conversion & <br>Casting & Wrapper Classes</p>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
 </body>
 </html>
