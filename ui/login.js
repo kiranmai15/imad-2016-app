@@ -59,7 +59,7 @@ function loadLoginForm () {
 }
 
 function loadLoggedInUser (username) {
-    var loginArea = document.getElementById('login_area');
+    var loginArea = document.getElementById('user_area');
     loginArea.innerHTML = `
        <div class="droparea">
         <h3>HI</h3>
