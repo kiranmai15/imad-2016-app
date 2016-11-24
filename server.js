@@ -136,7 +136,9 @@ app.get('/ui/main.css', function (req, res) {
 app.get('/ui/signup.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'signup.css'));
 });
-
+app.get('/ui/coursestyle.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'coursestyle.css'));
+});
 app.get('/ui/article-one.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.css'));
 });
