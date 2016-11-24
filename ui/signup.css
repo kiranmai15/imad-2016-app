@@ -54,7 +54,7 @@ header p {
   
 }
 
-#register_btn, #login_btn, .dropbtn{
+#register_btn, #login_btn{
     margin-top: 10px;
     background-color: #eb984e ; 
 }
@@ -65,6 +65,17 @@ header p {
 }
 .dropbtn{
     margin-top:20px;
+    background-color: #eb984e ;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 .dropdown-content {
     display: none;
