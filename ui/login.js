@@ -4,6 +4,7 @@ function signForm(){
      var newdiv = document.createElement('div');
       newdiv.innerHTML = `
       <h3>New User? <a style="text-decoration:none;font-weight:bold;" href="http://kiranmai15.imad.hasura-app.io/register">Sign up</a></h3>
+      <h3 style="margin-top:5px">Login Again? <a style="text-decoration:none;font-weight:bold;" href="http://kiranmai15.imad.hasura-app.io/loginform">Log in</a></h3>
       `;
       ni.appendChild(newdiv);
 }
