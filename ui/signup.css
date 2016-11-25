@@ -34,15 +34,13 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
- 
+ background-image:url("https://lh6.googleusercontent.com/6JdEwNXRKcBPgVGkG8I3rixUbCD7oK1JE9CldmYgfUfvZu6g-D7E8dUxqEuBObO7PJf3uD2m-woEnjw=w1365-h697");
+     background-size: cover;
   color: #ffffff;
   height: 600px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 #login_area{
-    
-    background-image:url("https://lh3.googleusercontent.com/TZjaKX0cBFtQ6XCFpqdrutyS_HXhL-I2ic5oawGKoWBTJkod_KWhalgUoS23syXFCPsijrjmgrGl_Yo=w1365-h697");
-     background-size: cover;
     margin-top:-50px;
     margin-left:450px;
     width:400px;
@@ -51,9 +49,8 @@ header p {
     font-family: serif;
 }
 #register_area{
-     background-image:url("https://lh6.googleusercontent.com/6JdEwNXRKcBPgVGkG8I3rixUbCD7oK1JE9CldmYgfUfvZu6g-D7E8dUxqEuBObO7PJf3uD2m-woEnjw=w1365-h697");
-     background-size: cover;
-    margin-top:-50px;
+     
+    margin-top:-10px;
     margin-left:450px;
     width:400px;
     color: black;
