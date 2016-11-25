@@ -55,45 +55,44 @@ header p {
   color: #fff;
 }
 
-.dropbtn{
-    margin-top:20px;
-    background-color: #eb984e ;
-    color: black;
-    padding: 16px;
-    font-size: 25px;
-    width:200px;
-    border: none;
+button.accordion {
+    background-color:  #85c1e9 ;
+    color: white;
     cursor: pointer;
-    
+    padding: 18px;
+    width: 280px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    font-family:monospace;
+    transition: 0.4s;
+    font-weight: bold;
 }
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #FFA07A ;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-size: 25px;
-    width:200px;
-    
-}
-
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+button.accordion:after {
+    content: '\02207';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
 }
 
+button.accordion.active:after {
+    content: '\02206';
+}
 
-.dropdown-content a:hover {background-color:  #aed6f1  }
+div.panel {
+    width: 280px;
+    padding: 0 18px;
+    background-color: #f5cba7;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+     font-size: 20px;
+    font-family:serif;
+}
 
-
-.show {display:block;}
 .footer{
     font-size:30px;
  
