@@ -16,6 +16,8 @@ header .row{
 header h1 {
   font-weight: 700;
   margin: 0;
+  font-family: serif;
+  color:#5dade2;
 }
 
 header nav {
