@@ -51,7 +51,7 @@ header p {
 }
 #register_area{
      
-    margin-top:30px;
+    margin-top:35px;
     margin-left:450px;
     width:400px;
     color: black;
@@ -66,7 +66,7 @@ header p {
 }
 
 #register_btn, #login_btn{
-    margin-top: 5px;
+    margin-top:-5px;
     background-color: #eb984e ; 
 }
 #register_btn:hover, #login_btn:hover, .dropbtn:hover{
