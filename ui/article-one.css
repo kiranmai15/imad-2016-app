@@ -116,3 +116,8 @@ div.panel.show {
     border:2px;
     border-color: black;
 }
+#comments{
+     margin-top:-300px;
+     margin-left:400px;
+     background-color:#f5cba7;
+}
