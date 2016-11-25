@@ -44,7 +44,9 @@ header p {
     margin-top:50px;
     margin-left:450px;
     width:400px;
-    color: #5dade2;
+    color: 
+#483D8B
+;
     font-size:30px;
     font-family: serif;
     font-weight:bold;
@@ -54,7 +56,9 @@ header p {
     margin-top:35px;
     margin-left:450px;
     width:400px;
-    color: #5dade2;
+    color: 
+#483D8B
+;
     font-size:30px;
     font-family: serif;
     font-weight:bold;
@@ -67,7 +71,7 @@ header p {
 
 #register_btn, #login_btn{
     margin-top:-5px;
-    background-color: #eb984e ; 
+    background-color:  #DAF7A6  ; 
 }
 #register_btn:hover, #login_btn:hover, .dropbtn:hover{
     background-color:#aed6f1 ;
