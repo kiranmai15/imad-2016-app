@@ -1,33 +1,45 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="/ui/coursestyle.css">
+     <meta charset="utf-8"/>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+<link rel="stylesheet" type="text/css" href="/ui/article-one.css">
 
 </head>
-<body>
-
-<h2>Welcome to Java Course</h2>
-
-<button class="accordion">Chapter-1</button>
+  <body>
+     <header class="container">
+       <div class="row">
+     <h1 class="col-sm-6">Welcome to Java Course</h1>
+      <nav class="col-sm-6 text-right">
+       <p> <a href="/">Home</a><p>
+         <p><a href="/logout">Logout</a></p>
+      </nav>
+      </div>
+    </header>
+<section class="jumbotron">
+    <div class="container">
+    <p id="content"> Course content </p>
+    <button class="accordion">Chapter-1</button>
 <div class="panel">
     
-  <p> <input type="radio" name="chapter-1"  onClick="window.location = '/article-one';" >Introduction to Java<br>Programming</p>
-  <p><input type="radio" name="chapter-1">JDK Installation & <br>Setting path</p>
-  <p><input type="radio" name="chapter-1" onClick="window.location = 'http://gmail.com/';">Datatypes & Variables</p>
-  <p> <input type="radio" name="chapter-1">Java Tokens</p>
+  <p> <input type="radio" name="chapter-1"  onClick="window.location = 'introjava.html';" >  Introduction to Java<br><span id="tab">Programming</span></p>
+  <p><input type="radio" name="chapter-1">  JDK Installation & <br><span id="tab">Setting path</span></p>
+  <p><input type="radio" name="chapter-1" onClick="window.location = 'http://gmail.com/';">  Datatypes & Variables</p>
+  <p> <input type="radio" name="chapter-1">  Java Tokens</p>
    
 </div>
 <button class="accordion">Chapter-2</button>
 <div class="panel">
-  <p><input type="radio" name="chapter-2" >control structures</p>
-  <p><input type="radio" name="chapter-2" >Scanner Class</p>
-  <p><input type="radio" name="chapter-2">Buffered Reader</p>
+  <p><input type="radio" name="chapter-2" >  control structures</p>
+  <p><input type="radio" name="chapter-2" >  Scanner Class</p>
+  <p><input type="radio" name="chapter-2">  Buffered Reader</p>
 </div>
 
 <button class="accordion">Chapter-3</button>
 <div id="foo" class="panel">
-  <p><input type="radio" name="chapter-3">Object and Class in Java</p>
-  <p><input type="radio" name="chapter-3">Type Conversion & <br>Casting & Wrapper Classes</p>
+  <p><input type="radio" name="chapter-3">  Object and Class in Java</p>
+  <p><input type="radio" name="chapter-3">  Type Conversion & <br><span id="tab">Casting</span></p>
 </div>
 <script>
 var acc = document.getElementsByClassName("accordion");
@@ -40,6 +52,12 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 </script>
-
+</div>
+    </section>
+      <footer class="container">
+        <div class="row text-center">
+            <p>&copy; 2016 Novice E-Learning</p>
+        </div>
+ </footer>
 </body>
 </html>
