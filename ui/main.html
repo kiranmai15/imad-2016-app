@@ -22,30 +22,19 @@
     <div class="container">
       <div class="row text-center">
 <h2>Computer Science & Engineering</h2>
-        <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">e-courses</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="http://kiranmai15.imad.hasura-app.io/loginform">Core Java</a>
-    <a href="http://kiranmai15.imad.hasura-app.io/loginform">Linux</a>
-  </div>
-</div>
+<button class="accordion">e-Courses</button>
+<div class="panel">
+  <p><a href="http://kiranmai15.imad.hasura-app.io/loginform">Core Java</a></p>
+  <p><a href="http://kiranmai15.imad.hasura-app.io/loginform">Linux</a></p>
+ </div>
 <script>
- function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
   }
 }
 </script>
