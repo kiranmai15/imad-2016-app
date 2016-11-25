@@ -112,12 +112,13 @@ div.panel.show {
 }
 #submitcomment{
     margin-top:-300px;
-    margin-left:360px;
+    margin-left:380px;
     border:2px;
     border-color: black;
 }
 #comments{
      margin-top:50px;
-     margin-left:360px;
+     margin-left:380px;
      background-color:#f5cba7;
+     width:800px;
 }
