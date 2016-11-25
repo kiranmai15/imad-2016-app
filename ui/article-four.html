@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+     <meta charset="utf-8"/>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+         <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/ui/article-one.css">
+</head>
+<body>
+  <header class="container">
+       <div class="row">
+     <h1 class="col-sm-6">Welcome to Java Course</h1>
+      <nav class="col-sm-6 text-right">
+       <p> <a href="/">Home</a><p>
+         <p><a href="/logout">Logout</a></p>
+      </nav>
+      </div>
+    </header>
+
+<div class="total">
+    
+ <div class="panel1">
+     <p id="content"> Course content </p>
+<button class="accordion">Chapter-1</button>
+<div class="panel">
+ <p> <input type="radio" name="chapter-1"  onClick="window.location = '/article-one';">Introduction to Java<br>Programming</p>
+   <p><input type="radio" name="chapter-1" onClick="window.location = '/article-two';">  JDK Installation & <br><span id="tab">Setting path</span></p>
+   
+</div>
+<button class="accordion">Chapter-2</button>
+<div class="panel">
+      <p><input type="radio" name="chapter-1" onClick="window.location = '/article-three';">  Datatypes & Variables</p>
+  <p> <input type="radio" name="chapter-1" onClick="window.location = '/article-four';" checked>  Java Tokens</p>
+  <p><input type="radio" name="chapter-2" onClick="window.location = '/article-five';">  control structures</p>
+</div>
+
+<button class="accordion">Chapter-3</button>
+<div id="foo" class="panel">
+     <p><input type="radio" name="chapter-2" onClick="window.location = '/article-six';">  Scanner Class</p>
+  <p><input type="radio" name="chapter-2" onClick="window.location = '/article-six';">  Buffered Reader</p>
+  <p><input type="radio" name="chapter-3" onClick="window.location = '/article-six';">  Object and Class in Java</p>
+  <p><input type="radio" name="chapter-3" onClick="window.location = '/article-six';">  Type Conversion & <br><span id="tab">Casting</span></p>
+</div>
+</div>
+    
+<div class="slide1">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ3-1Jdaie0f88kqu588gJPnbgMwmgw3TeQdTczqTGmFMpqDppUxNrXVkho2EYsB0pC9k35YhqyX_Uk/embed?start=true&ampoop=false&ampdelayms=3000" frameborder="0" width="800" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+</div>
+           <div id="comment_form">
+                <center>Loading comments...</center>
+         </div>
+         <div id="comments">
+                
+              </div>
+        <script type="text/javascript" src="/ui/comment.js">
+        </script>
+        
+
+        
+    
+ <footer class="container">
+        <div class="row text-center">
+            <p>&copy; 2016 Novice E-Learning</p>
+        </div>
+ </footer>
+
+            </body>
+</html>
