@@ -22,22 +22,34 @@
     <div class="container">
       <div class="row text-center">
 <h2>Computer Science & Engineering</h2>
-<button class="accordion">e-Courses</button>
-<div class="panel">
-  <p><a href="http://kiranmai15.imad.hasura-app.io/loginform">Core Java</a></p>
-  <p><a href="http://kiranmai15.imad.hasura-app.io/loginform">Linux</a></p>
- </div>
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Select a course</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="http://kiranmai15.imad.hasura-app.io/courses">Core Java</a>
+    <a href="#">Linux</a>
+  </div>
+</div>
 <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+ function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle("show");
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
   }
 }
 </script>
+
         </div>
       </div>
     </section>
