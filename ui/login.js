@@ -9,10 +9,10 @@ function signForm(){
 }
 function loadLoginForm () {
     var loginHtml = `
-        Username:<br>
+        Username<br>
         <input type="text" id="username" placeholder="username" />
         <br>
-        Password:<br>
+        Password<br>
         <input type="password" id="password" />
         <br/><br/>
        <input type="submit" id="login_btn" value="Login" />
