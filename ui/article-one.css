@@ -25,14 +25,9 @@ header p {
   text-decoration: none;
  
 }
-.jumbotron {
-  height:1000px;
-  background-color:  #fdf2e9 ;
-  background-size: cover;
-  color: black;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-  
-}
+.total {
+   background-color:  #fdf2e9 ;
+    }
 #content{
     margin-top:23px;
     background-color:  #85c1e9 ;
