@@ -66,15 +66,13 @@ header p {
     
 }
 .dropbtn:after{
-    content: '\0039E';
+    content: '\u039E';
     font-size: 30px;
     color: white;
     float: right;
     margin-left: 5px;
 }
-.dropbtn.active:after{
-    content: '\02206';
-}
+
 .dropdown {
     position: relative;
     display: inline-block;
