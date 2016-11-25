@@ -75,7 +75,7 @@ function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
        <div class="droparea">
-        <h2 style="font-family:cursive">Welcome ${username}</h3>
+        <h2 style="font-family:cursive;font-size:40px">Welcome ${username}</h3>
         <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Select a course</button>
   <div id="myDropdown" class="dropdown-content">
