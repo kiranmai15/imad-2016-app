@@ -54,10 +54,9 @@ header p {
   margin-top: 10px;
   color: #fff;
 }
-
 button.accordion {
     background-color:  #85c1e9 ;
-    color: white;
+    color: #444;
     cursor: pointer;
     padding: 18px;
     width: 280px;
@@ -69,6 +68,11 @@ button.accordion {
     transition: 0.4s;
     font-weight: bold;
 }
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
 button.accordion:after {
     content: '\02207';
     font-size: 13px;
@@ -92,6 +96,13 @@ div.panel {
      font-size: 20px;
     font-family:serif;
 }
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;  
+}
+
+
 
 .footer{
     font-size:30px;
