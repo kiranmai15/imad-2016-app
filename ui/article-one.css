@@ -1,20 +1,16 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-}
-
 header {
   padding: 20px 0;
 }
 
 header .row{
   display: flex;
-  align-items: center;
 }
 
 header h1 {
   font-weight: 700;
   margin: 0;
+  font-family: serif;
+  color:#5dade2;
 }
 
 header nav {
@@ -24,15 +20,27 @@ header nav {
 header p {
   padding: 0 20px;
   margin: 0;
+  font-size:25px;
+  font-weight: bold;
+  text-decoration: none;
+ 
 }
 .jumbotron {
-  display: flex;
-  align-items: center;
+  height:1000px;
   background-color:  #fdf2e9 ;
   background-size: cover;
   color: black;
   text-shadow: 0.25px 0.25px 0.25px #000000;
   
+}
+#content{
+    background-color:  #85c1e9 ;
+    color: #444;
+     padding: 18px;
+    width: 280px;
+    font-size: 24px;
+    font-family:monospace;
+    font-weight: bold;
 }
 #comments{
     width:1000px;
@@ -41,21 +49,24 @@ header p {
     font:1.4em/1.6em cursive;
     
 }
-.footer{
+.footer p{
     font-size:30px;
+    margin-bottom: 0;
  
 }
 button.accordion {
-    background-color: #eee;
+    background-color:  #85c1e9 ;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 200px;
+    width: 280px;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 24px;
+    font-family:monospace;
     transition: 0.4s;
+    font-weight: bold;
 }
 
 button.accordion.active, button.accordion:hover {
@@ -71,29 +82,37 @@ button.accordion:after {
 }
 
 button.accordion.active:after {
-    content: "\2206";
+    content: '\02206';
 }
 
 div.panel {
+    width: 280px;
     padding: 0 18px;
-    background-color: white;
+    background-color: #f5cba7;
     max-height: 0;
     overflow: hidden;
     transition: 0.6s ease-in-out;
     opacity: 0;
+     font-size: 20px;
+    font-family:serif;
 }
 
 div.panel.show {
     opacity: 1;
     max-height: 500px;  
 }
+#tab{
+    margin-left:140px;
+}
 .total{
     display:flex;
 }
 .slide1{
-    margin: 20px 450px 500px 250px;
+    margin: 20px 200px 300px 100px;
 }
 #submitcomment{
-    margin-top:-500px;
-    margin-left:450px;
+    margin-top:-300px;
+    margin-left:400px;
+    border:2px;
+    border-color: black;
 }
