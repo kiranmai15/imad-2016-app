@@ -41,7 +41,7 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 #login_area{
-    margin-top:100px;
+    margin-top:60px;
     margin-left:450px;
     width:400px;
     color: black;
@@ -51,7 +51,7 @@ header p {
 }
 #register_area{
      
-    margin-top:5px;
+    margin-top:15px;
     margin-left:450px;
     width:400px;
     color: black;
