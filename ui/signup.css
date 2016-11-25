@@ -34,7 +34,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
- background-image:url("https://lh3.googleusercontent.com/xPGSquojm96M4UpEOt32cbkn8P99qVShUKUZRjy6NcHbE-FBo42CzF_FQYtVCAPeN4rYyY-itrh7IfE=w1365-h697");
+ background-image:url("scroll.png");
  background-size: cover;
   color: #ffffff;
   height: 600px;
@@ -80,7 +80,7 @@ header p {
     color: black;
     padding: 16px;
     font-size: 30px;
-    width:200px;
+    width:400px;
     border: none;
     cursor: pointer;
     
@@ -96,7 +96,7 @@ header p {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     font-size: 30px;
-    width:200px;
+    width:400px;
     
 }
 
