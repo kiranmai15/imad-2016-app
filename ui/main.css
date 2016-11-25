@@ -67,7 +67,7 @@ header p {
 }
 .dropbtn:after{
     content: '\02207';
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     float: right;
     margin-left: 5px;
@@ -84,6 +84,7 @@ header p {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     font-size: 20px;
     width:200px;
+    background-color: #eb984e ;
     
 }
 
