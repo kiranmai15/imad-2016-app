@@ -90,6 +90,5 @@ function loadComments () {
     request.open('GET', '/get-comments/' + currentArticleTitle, true);
     request.send(null);
 }
-
+loadLogin();
 loadCommentForm();
-loadComments();
