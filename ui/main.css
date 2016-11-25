@@ -66,7 +66,7 @@ header p {
     
 }
 .dropbtn:after{
-    content: '\u039E';
+    content: '\02207';
     font-size: 30px;
     color: white;
     float: right;
