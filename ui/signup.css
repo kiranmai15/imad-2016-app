@@ -87,6 +87,7 @@ header p {
 .dropdown {
     position: relative;
     display: inline-block;
+    width:300px;
 }
 .dropdown-content {
     display: none;
