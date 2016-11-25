@@ -68,7 +68,7 @@ header p {
 .dropbtn:after{
     content: '\02207';
     font-size: 25px;
-    color: white;
+    color: black;
     float: right;
     margin-left: 5px;
 }
@@ -83,6 +83,7 @@ header p {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     font-size: 20px;
+    font-family:bold;
     width:200px;
     background-color:  #DAF7A6  ;
      border-radius: 20px;
@@ -91,10 +92,11 @@ header p {
 
 
 .dropdown-content a {
-    color: white;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    
 }
 
 
