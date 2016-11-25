@@ -140,6 +140,12 @@ app.get('/article-four', function (req, res) {
 app.get('/article-five', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-five.html'));
 });
+app.get('/article-six', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-six.html'));
+});
+app.get('/article-seven', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-seven.html'));
+});
 
 
 app.get('/ui/main.css', function (req, res) {
