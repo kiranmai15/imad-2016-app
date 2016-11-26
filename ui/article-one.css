@@ -48,7 +48,7 @@ header p {
     margin-bottom: 0;
  
 }
-button.accordion {
+.accordion {
     background-color:  #85c1e9 ;
     color: #444;
     cursor: pointer;
@@ -63,11 +63,11 @@ button.accordion {
     font-weight: bold;
 }
 
-button.accordion.active, button.accordion:hover {
+.accordion.active, .accordion:hover {
     background-color: #ddd;
 }
 
-button.accordion:after {
+.accordion:after {
     content: '\02207';
     font-size: 13px;
     color: #777;
@@ -75,11 +75,11 @@ button.accordion:after {
     margin-left: 5px;
 }
 
-button.accordion.active:after {
+.accordion.active:after {
     content: '\02206';
 }
 
-div.panel {
+.panel {
     width: 280px;
     padding: 0 18px;
     background-color: #f5cba7;
@@ -91,7 +91,7 @@ div.panel {
     font-family:serif;
 }
 
-div.panel.show {
+.panel.show {
     opacity: 1;
     max-height: 500px;  
 }
