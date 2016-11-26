@@ -36,7 +36,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("https://images3.alphacoders.com/176/176787.jpg");
+  background-image: url("/ui/main.jpg");
   background-size: cover;
   color: #ffffff;
   height: 600px;
