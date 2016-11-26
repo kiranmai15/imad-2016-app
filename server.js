@@ -185,7 +185,15 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-
+app.get('/ui/main.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.jpg'));
+});
+app.get('/ui/profile.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'profile.jpg'));
+});
+app.get('/ui/note-pad.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'note-pad.jpg'));
+});
 app.get('/get-comments/:articleName', function (req, res) {
    // make a select request
    // return a response with the results
