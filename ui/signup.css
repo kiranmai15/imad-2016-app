@@ -11,19 +11,16 @@ header .row{
   display: flex;
   align-items: center;
 }
-
-header h1 {
-  font-weight: 700;
-  margin: 0;
-  font-family: serif;
-  color:#5dade2;
-}
-
 header nav {
   display: flex;
   justify-content: flex-end;
 }
-
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  font-family: serif;
+  color:#1b4f72;
+}
 header p {
   padding: 0 20px;
   margin: 0;
@@ -31,6 +28,7 @@ header p {
   font-weight: bold;
   color:black;
 }
+
 .jumbotron {
   display: flex;
   align-items: center;
