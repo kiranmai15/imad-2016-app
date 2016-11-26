@@ -50,6 +50,7 @@ header p {
   color: #fff;
 }
 .option{
+    border-radius:30px;
     background-color: #DAF7A6 ;
     color: #900C3F;
     font-size:30px;
