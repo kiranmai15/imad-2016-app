@@ -49,61 +49,17 @@ header p {
   margin-top: -200px;
   color: #fff;
 }
-
-.jumbotron h3 {
-  margin-top: 10px;
-  color: #fff;
-}
-.dropbtn{
-    margin-top:20px;
-    background-color:  #DAF7A6  ;
-    color: black;
-    padding: 16px;
-    font-size: 20px;
-    width:200px;
-    border-radius: 30px;
-    cursor: pointer;
-    
-}
-.dropbtn:after{
-    content: '\02207';
-    font-size: 25px;
-    color: black;
-    float: right;
-    margin-left: 5px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-size: 20px;
-    font-family:bold;
-    width:200px;
-    background-color:  #DAF7A6  ;
-     border-radius: 20px;
-    
-}
+.option{
+    background-color: #DAF7A6 ;
+    color: #900C3F;
+    font-size:30px;
+    margin:150px 450px;
+    font-family:fantasy;
+   
+ }
 
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    
-}
 
-
-.dropdown-content a:hover {background-color:  #aed6f1  }
-
-
-.show {display:block;}
 
 
 .footer{
