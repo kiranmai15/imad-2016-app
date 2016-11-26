@@ -34,7 +34,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
- background-image:url("https://lh6.googleusercontent.com/EB-TFFSDbeSFAn1lTisAotSPT9cOrWJ3rGDd7XNILa7YOyTBgH5D4yReAzitJVSSTTMWv8knQwTaO7E=w1365-h697");
+ background-image:url("/ui/note-pad.jpg");
  background-size: cover;
   color: #ffffff;
   height: 600px;
