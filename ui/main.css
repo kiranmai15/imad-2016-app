@@ -54,9 +54,17 @@ header p {
     background-color: #DAF7A6 ;
     color: #900C3F;
     font-size:30px;
-    margin:50px 450px;
+    margin-top:50px;
+    margin-left:450px;
     font-family:fantasy;
    
+ }
+ .option1{
+    border-radius:30px;
+    background-color: #DAF7A6 ;
+    color: #900C3F;
+    font-size:30px;
+    font-family:fantasy;
  }
 
 
