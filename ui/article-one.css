@@ -5,27 +5,23 @@ header {
 header .row{
   display: flex;
 }
-
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
 header h1 {
   font-weight: 700;
   margin: 0;
   font-family: serif;
-  color:#5dade2;
-}
-
-header nav {
-  display: flex;
-  justify-content: flex-end;
+  color:#1b4f72;
 }
 header p {
   padding: 0 20px;
   margin: 0;
   font-size:25px;
   font-weight: bold;
-  text-decoration: none;
- 
+  color:black;
 }
-
 #content{
     margin-top:23px;
     background-color:  #85c1e9 ;
