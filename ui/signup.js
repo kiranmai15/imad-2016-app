@@ -1,3 +1,16 @@
+function validateSignUpForm() {
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+    if (username === '' || password === '') {
+     
+        // Inform the user on the screen through some message or give him a alert message
+        alert("Username/Password field can't be left empty");
+        return false;
+    }
+
+	
+	return true;
+}
 function signupForm(){
   
      var ni = document.getElementById('register_area');
@@ -25,6 +38,7 @@ function signupForm(){
 
  var register = document.getElementById('register_btn');
     register.onclick = function () {
+        if(validateSignUpForm()) {
         // Create a request object
         var request = new XMLHttpRequest();
         
@@ -32,12 +46,8 @@ function signupForm(){
         request.onreadystatechange = function () {
           if (request.readyState === XMLHttpRequest.DONE) {
               // Take some action
-       if (username === '' || password === '') {
-        // Inform the user on the screen through some message or give him a alert message
-        alert("Username/Password field can't be left empty");
-        return;
-    }
-             else if (request.status === 200) {
+       
+              if (request.status === 200) {
                   alert('User created successfully');
                   register.value = 'Registered!';
               } else {
@@ -62,7 +72,7 @@ function signupForm(){
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({username: username, password: password, firstname: firstname, lastname: lastname, email: email}));  
         register.value = 'Registering...';
-    
+        }
 };
 }
 signupForm();
