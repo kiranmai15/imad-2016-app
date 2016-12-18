@@ -1,10 +1,15 @@
 function validateSignUpForm() {
+        
+         var firstname = document.getElementById('firstname').value;
+        var lastname = document.getElementById('lastname').value;
+   
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
-    if (username === '' || password === '') {
+             var email = document.getElementById('email').value;
+    if (firstname === '' || lastname === '' || username === '' || password === '' || email ==='') {
      
         // Inform the user on the screen through some message or give him a alert message
-        alert("Username/Password field can't be left empty");
+        alert("Field's can't be left empty");
         return false;
     }
 
