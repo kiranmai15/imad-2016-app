@@ -32,7 +32,12 @@ function signupForm(){
         request.onreadystatechange = function () {
           if (request.readyState === XMLHttpRequest.DONE) {
               // Take some action
-              if (request.status === 200) {
+       if (username === '' || password === '') {
+        // Inform the user on the screen through some message or give him a alert message
+        alert("Username/Password field can't be left empty");
+        return;
+    }
+             else if (request.status === 200) {
                   alert('User created successfully');
                   register.value = 'Registered!';
               } else {
