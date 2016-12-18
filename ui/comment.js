@@ -1,4 +1,17 @@
 var currentArticleTitle = window.location.pathname.split('/')[1];
+function validateCommentForm() {
+        var comment = document.getElementById('comment_text').value;
+       
+    if (comment === '') {
+     
+        // Inform the user on the screen through some message or give him a alert message
+        alert("Please enter valid comment");
+        return false;
+    }
+
+	
+	return true;
+}
 function loadCommentForm () {
     var commentFormHtml = `
         <div id="submitcomment">
@@ -13,6 +26,7 @@ function loadCommentForm () {
     // Submit username/password to login
     var submit = document.getElementById('submit');
     submit.onclick = function () {
+        if(validateCommentForm()){
         // Create a request object
         var request = new XMLHttpRequest();
         
@@ -37,7 +51,7 @@ function loadCommentForm () {
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({comment: comment}));  
         submit.value = 'Submitting...';
-        
+        }  
     };
 }
 function loadLogin () {
