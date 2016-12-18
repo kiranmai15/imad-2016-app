@@ -26,7 +26,6 @@ function loadCommentForm () {
     // Submit username/password to login
     var submit = document.getElementById('submit');
     submit.onclick = function () {
-        if(validateCommentForm()){
         // Create a request object
         var request = new XMLHttpRequest();
         
@@ -51,7 +50,7 @@ function loadCommentForm () {
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({comment: comment}));  
         submit.value = 'Submitting...';
-        }  
+        
     };
 }
 function loadLogin () {
